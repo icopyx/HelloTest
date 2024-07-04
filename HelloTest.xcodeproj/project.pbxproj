@@ -11,9 +11,10 @@
 		76042CBC2C353F3600397463 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76042CBB2C353F3600397463 /* ContentView.swift */; };
 		76042CBE2C353F3900397463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76042CBD2C353F3900397463 /* Assets.xcassets */; };
 		76042CC12C353F3900397463 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76042CC02C353F3900397463 /* Preview Assets.xcassets */; };
-		76042CCB2C353F3900397463 /* HelloTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76042CCA2C353F3900397463 /* HelloTestTests.swift */; };
+		76042CCB2C353F3900397463 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76042CCA2C353F3900397463 /* StackTests.swift */; };
 		76042CD52C353F3900397463 /* HelloTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76042CD42C353F3900397463 /* HelloTestUITests.swift */; };
 		76042CD72C353F3900397463 /* HelloTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76042CD62C353F3900397463 /* HelloTestUITestsLaunchTests.swift */; };
+		76042D202C36374400397463 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76042D1F2C36374400397463 /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +41,12 @@
 		76042CBD2C353F3900397463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76042CC02C353F3900397463 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76042CC62C353F3900397463 /* HelloTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76042CCA2C353F3900397463 /* HelloTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTestTests.swift; sourceTree = "<group>"; };
+		76042CCA2C353F3900397463 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 		76042CD02C353F3900397463 /* HelloTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76042CD42C353F3900397463 /* HelloTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTestUITests.swift; sourceTree = "<group>"; };
 		76042CD62C353F3900397463 /* HelloTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76042D1E2C362DE900397463 /* autoclosure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = autoclosure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		76042D1F2C36374400397463 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				76042CBB2C353F3600397463 /* ContentView.swift */,
 				76042CBD2C353F3900397463 /* Assets.xcassets */,
 				76042CBF2C353F3900397463 /* Preview Content */,
+				76042D1E2C362DE900397463 /* autoclosure.playground */,
+				76042D1F2C36374400397463 /* Stack.swift */,
 			);
 			path = HelloTest;
 			sourceTree = "<group>";
@@ -113,7 +118,7 @@
 		76042CC92C353F3900397463 /* HelloTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				76042CCA2C353F3900397463 /* HelloTestTests.swift */,
+				76042CCA2C353F3900397463 /* StackTests.swift */,
 			);
 			path = HelloTestTests;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76042CBC2C353F3600397463 /* ContentView.swift in Sources */,
+				76042D202C36374400397463 /* Stack.swift in Sources */,
 				76042CBA2C353F3600397463 /* HelloTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76042CCB2C353F3900397463 /* HelloTestTests.swift in Sources */,
+				76042CCB2C353F3900397463 /* StackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
